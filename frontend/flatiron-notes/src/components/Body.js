@@ -1,7 +1,13 @@
 import React from "react";
+import Notes from './Notes'
+import Homepage from './Homepage'
+
 function Body() {
     return (
-        <div></div>
+        <div>
+            <Homepage />
+            <Notes />
+        </div>
     )
 }
 
